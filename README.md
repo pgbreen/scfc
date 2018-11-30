@@ -8,7 +8,7 @@ Example:
 ```sh
 $./scf -i inputfile -lmax 2
 ```
- - Input file assumed to be of form m1 x1 x2 x3 v1 v2 v3 (currently assumed masses are identical but easily updatable to multi-mass). 
+ - Input file assumed to be of form m1 x1 x2 x3 v1 v2 v3 (currently assumes masses are identical but easily updatable to multi-mass). 
  - lmax maximum degree of spherical harmonic, also includes degrees up to lmax
  - use -h flag for other options
 
