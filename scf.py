@@ -16,7 +16,6 @@ parser.add_argument("-lout", help="label output files default to name of input",
 
 parser.add_argument("-aout", help="output projection coeff", action='store_true', default=False)
 
-
 parser.add_argument("-rb", help="rbasis - rescale radial functions",
                     type=float,default=1.0,metavar="")
 
@@ -35,7 +34,7 @@ parser.add_argument("-dt", help="time step ",
 parser.add_argument("-tend", help="termination time",
                     type=float,default=1.0,metavar="")
 
-parser.add_argument("-rcut", help="rut off value for calculating I tensor",
+parser.add_argument("-rcut", help="rut off value for calculating inertia tensor",
                     type=float,default=10.0,metavar="")
 
 #lpar = parser.add_mutually_exclusive_group(required=True)
