@@ -9,8 +9,7 @@ Example:
 $./scf.py -i inputfile -lmax 2
 # Time 	Energy 	Kinetic   Potentail Amp-m2     L_z     L_tot    time_seconds 
  0.0 -0.2505358 0.2482453 0.4987811 8.6801E-03 1.3882E+00 0.0015663 0.0024844 1.053 3.363 1.116   0.2 
- 1.0 -0.2504870 0.2491536 0.4996407 1.6117E-02 -4.2685E-01 0.0015663 0.0034391 1.061 3.354 1.120   1.3 
- 1.0625 -0.2504870 0.2491536 0.4996407 1.6117E-02 -4.2685E-01 0.0015663 0.0034391 1.061 3.354 1.120   1.3 
+ 1.0 -0.2504870 0.2491536 0.4996407 1.6117E-02 -4.2685E-01 0.0015663 0.0034391 1.061 3.354 1.120   1.3  
 ```
  - Input file assumed to be of form m1 x1 x2 x3 v1 v2 v3 (currently assumes masses are identical but easily updatable to multi-mass). 
  - lmax maximum degree of spherical harmonic, also includes degrees up to lmax
