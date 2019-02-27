@@ -39,7 +39,7 @@ parser.add_argument("-rcut", help="rut off value for calculating inertia tensor"
 
 #lpar = parser.add_mutually_exclusive_group(required=True)
 #lpar.add_argument('-lm',  help=" e.g. -lm l0 m0 l2  m0 " ,nargs='+', type=int, default=[0,0])
-parser.add_argument('-lmax',  help=" maximum value of l includes all m < l (ignored if not set) ", type=int, default=-1)
+parser.add_argument('-lmax',  help=" maximum value of l includes all m < l (ignored if not set) ", type=int, default=1)
 
 #parser.add_argument('-m', nargs='+', type=int, default=[0])
 
