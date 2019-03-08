@@ -177,7 +177,7 @@ def possion(x,incpot=False):
 			elif mi == li:
 				dplmi = li*cospol*plm[(li,mi)]*tc
 			else:
-				dplmi = (li*cospol*plm[(li,mi)]-(li-mi)*plm[(li-1,mi)] )*tc
+				dplmi = (li*cospol*plm[(li,mi)]-(li+mi)*plm[(li-1,mi)] )*tc
 			dplm[(li,mi)] = dplmi
 
 	#spherical harmonics, use sph[li][mi]
